@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Destinos</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Empresa de viaje</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Destinos</a></li>
+                    <li><a href="#">Paquetes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+        <div class="banner">
+            <div class="banner-texto">
+                <h1>Viajes</h1>
+                <p>Mira todos los viajes y selecciona el que más te guste</p>
+            </div>
+        </div>
+
+    <section id="destino1">
+        <div class="Madrid">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaIXnAIL_4aEHg4sdmTLbzAGfX16TZ1reQRp_cPp8Pg&s" class="imagen-destino">
+            <h3>Madrid, España</h3>
+            <div class="precio-fecha">
+                <div class="precio">Precio: $1,375,504</div>
+                <div class="fecha">Fecha: 1 de julio de 2024</div>
+            </div>
+                <!-- Formulario Madrid -->
+            <label for="formulario-madrid" class="reserva-label">Reservar Ahora</label>
+        <input type="checkbox" id="formulario-madrid" class="oculto">
+        <div class="formulario-contenido">
+                <h3>Complete sus datos:</h3>
+                <form>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="rut">RUT:</label><br>
+                    <input type="text" id="rut" name="rut"><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="destino2">
+        <div class="Paris"> <!-- Nombre del destino para css-->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTKNT8g1qMCyWpLKWy2CMFKm0cxzvJ7RpCdNNGDOKl2A&s" class="imagen-destino2"> <!-- Imagen de la ciudad -->
+            <h3>París, Francia</h3> <!-- Nombre del destino que aparecera en la página -->
+            <div class="precio-fecha">
+                <div class="precio">Precio: $1,200,000</div> <!-- Precio del viaje -->
+                <div class="fecha">Fecha: 15 de agosto de 2024</div> <!-- Fecha de viaje -->
+            </div>
+            <!-- Formulario París -->
+            <label for="formulario-parís" class="reserva-label">Reservar Ahora</label>
+            <input type="checkbox" id="formulario-parís" class="oculto">
+            <div class="formulario-contenido">
+                <h3>Complete sus datos:</h3>
+                <form>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="rut">RUT:</label><br>
+                    <input type="text" id="rut" name="rut"><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
